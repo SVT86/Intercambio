@@ -5,8 +5,6 @@
 void mostrarArreglo(int arreglo[], int ce)
 {
 
-    //    int len = sizeof(arreglo) / sizeof(arreglo[0]);
-
     for (int i = 0; i < ce; i++)
         printf(" [%i] ", arreglo[i]);
     printf("\n");
